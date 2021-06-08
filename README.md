@@ -1,7 +1,7 @@
 # AutoBan
 Discord bot to automatically ban a user whose username contains a specific string.
 
-###Usage
+### Usage
 
 - If you don't have a dev app yet, create one on https://discord.com/developers/applications/.
 - Create a bot for your app.
