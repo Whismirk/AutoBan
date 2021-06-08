@@ -13,14 +13,14 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):
             print("New member !")
-            if "[your_target_string]" in member.name.lower():
-                print("Found the target !")
+            if "twitter.com/h0nde" in member.name.lower():
+                print("Found h0nde !")
                 try:
-                    print("Banning the target !")
-                    await member.ban(reason="[your_ban_reason_here]")
+                    print("Banning h0nde!")
+                    await member.ban(reason="h0nde, more like h0ndegenerate.")
                 except:
-                    print("Couldn't ban the target :(")
+                    print("Couldn't ban him :(")
             else:
-                print("New member isn't the target...")
+                print("But it's not h0nde...")
 
 bot.run('[your_bot_token_here]')
