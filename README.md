@@ -9,7 +9,7 @@ Discord bot to automatically ban a user whose username contains a specific strin
 - Invite the bot on your server.
 
 Next :
-- If you don't have it yet, install [python](https://www.python.org/]).
+- If you don't have it yet, install [python](https://www.python.org/downloads/).
 - Install discord.py via pip ([guide here](https://discordpy.readthedocs.io/en/stable/intro.html)).
 
 Then, in autoban.py, removing the [ ] brackets :
