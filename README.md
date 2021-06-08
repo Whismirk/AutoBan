@@ -4,9 +4,8 @@ Discord bot to automatically ban a user whose username contains a specific strin
 ### Usage
 
 - If you don't have a dev app yet, create one on https://discord.com/developers/applications/.
-- Create a bot for your app.
+- Create a bot for your app. Save its token for later.
 - Grant priviliged gateway intents to your newly made bot (just tick the options).
-- Copy the bot's token and save it for later.
 - Invite the bot on your server, with appropriate permissions (namely, read and ban).
 
 Next :
