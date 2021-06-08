@@ -19,3 +19,5 @@ Then, in autoban.py, removing the [ ] brackets :
 
 Finally, run autoban.py inside your terminal of choice.
 The bot will only work while the script is running.
+
+Originally made to counter the spam of bots pointing to https://twitter.com/h0nde.
