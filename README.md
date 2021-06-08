@@ -14,7 +14,7 @@ Next :
 - Install discord.py via pip ([guide here](https://discordpy.readthedocs.io/en/stable/intro.html)).
 
 Then, in autoban.py, removing the [ ] brackets :
-- Replace '[your_target_string]' with the specific word(s) you want the bot the ban. **/!\ It is case insensitive by default, you need to remove '.lower()' if you don't want to.**
+- Replace '[your_target_string]' with the specific word(s) you want the bot the ban. **/!\ It is case insensitive by default, you need to remove '.lower()' if you don't want it to be.**
 - Replace '[your_bot_token_here]' with your bot's private token.
 - Replace '[your_ban_reason_here]' with... self explanatory.
 
