@@ -24,16 +24,18 @@ async def on_member_join(member):
     :param member: Object of new member joining the server
     """
 
-    print('New member !')
+    print(f'New member {member.name}, joined the server!')
+
     if '[your_target_string]' in member.name.lower():
-        print('Found the target !')
+        print(f'{member.name} matches the target string!')
+
         try:
-            print('Banning the target !')
+            print(f'Banning {member.name}!')
             await member.ban(reason='[your_ban_reason_here]')
         except:
-            print('Could not ban the target :(')
-    else:
-        print('New member is not the target...')
+            print(f'Failed to ban {member.name}... :c')
 
+    else:
+        print(f'No need to ban {member.name}, does not match the target string!')
 
 bot.run('[your_bot_token_here]')
