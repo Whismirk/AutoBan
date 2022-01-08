@@ -1,0 +1,10 @@
+# Ignore JetBrains IDE Foldler
+.idea
+
+# Ignore VSCodium / Visual Studio Code Folder + WorkSpace Files
+.vscode/
+*.code-workspace
+
+# Ignore Python Caches
+__pycache__/
+ *.pyc
