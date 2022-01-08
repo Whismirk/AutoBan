@@ -14,7 +14,7 @@ Originally made to counter the spam of bots pointing to https://twitter.com/h0nd
 - Grant privileged gateway intents to your newly made bot (just tick the options).
 - Invite the bot on your server, with appropriate permissions (namely, read and ban).
 - Then, in `autoban.py`, removing the `[ ]` brackets :
-  - Replace `[your_target_string]` with the specific word(s) you want the bot the ban.
+  - Replace `[your_target_string]` with the specific word(s) you want the bot the ban.   
       **⚠️ It is case-insensitive by default, you need to remove `.lower()` if you don't want it to be.**
   - Replace `[your_bot_token_here]` with your bots private token.
   - Replace `[your_ban_reason_here]` with... self-explanatory.
