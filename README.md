@@ -1,4 +1,12 @@
 # Discord AutoBan
+<p align="left">
+    <a href="https://www.iconomi.com/register?ref=JdFzz">
+        <img src="https://img.shields.io/badge/ICONOMI-Join-blue?logo=bitcoin&logoColor=white" alt="ICONOMI - The world’s largest crypto strategy provider">
+    </a> <a href="https://www.buymeacoffee.com/Rikj000">
+        <img src="https://img.shields.io/badge/-Buy%20me%20a%20Coffee!-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffee as a way to sponsor this project!">
+    </a>
+</p>
+
 Discord Bot to automatically ban a user whose username contains a specific string.
 
 Originally made to counter the spam of bots pointing to https://twitter.com/h0nde.
