@@ -9,7 +9,8 @@
 
 Discord Bot to automatically ban a user whose username contains a specific string.
 
-Originally made to counter the spam of bots pointing to https://twitter.com/h0nde.
+Originally made by [@Whismirk](https://github.com/Whismirk) to counter the spam of bots pointing to [h0nde (Twitter)](https://twitter.com/h0nde)   
+Improved by [@Rikj000](https://github.com/Rikj000) to counter the spam of bots pointing to the [fehu NFT project (Discord)](https://discord.gg/8bB837HRPb)
 
 ### Requirements
 - If you don't have it yet, install [python](https://www.python.org/downloads/).
