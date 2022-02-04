@@ -22,11 +22,30 @@ Improved by [@Rikj000](https://github.com/Rikj000) to counter the spam of bots p
 - Create a bot for your app. Save its token for later.
 - Grant privileged gateway intents to your newly made bot (just tick the options).
 - Invite the bot on your server, with appropriate permissions (namely, read and ban).
-- Then, in `autoban.py`, removing the `[ ]` brackets :
-  - Replace `[your_target_string]` with the specific word(s) you want the bot the ban.   
-      **⚠️ It is case-insensitive by default, you need to remove `.lower()` if you don't want it to be.**
-  - Replace `[your_bot_token_here]` with your bots private token.
-  - Replace `[your_ban_reason_here]` with... self-explanatory.
+- Then, in `autoban.py`, configure the `SETTINGS` section to your needs:
+
+    - You can get `user_ids` by going into your Discord settings => Advanced => Enable Developer Mode.
+    - Then right click on a user and at the bottom of the options menu you will be able to copy the `user_id`.
+
+    ```python
+    # === ↓ SETTINGS ↓ ============================================================
+    target_strings = [
+        'verification',
+        'your_server_name_here',
+        'your_moderator_name_here',
+        'your_moderator_name_here',
+        'whatever_other_words_that_need_banning',
+    ]
+
+    whitelisted_user_ids = [
+        123456789123456789,  # your_moderator_user_id_here
+        123456789123456789,  # your_moderator_user_id_here
+    ]
+
+    ban_reason = 'Verification, the server name or moderator names are not allowed in the username to prevent scammers.'
+    bot_token = 'your_bot_token_here'
+    # === ↑ SETTINGS ↑ ============================================================
+    ```
 - Finally, run `autoban.py` inside your terminal of choice.
 
 The bot will only work while the script is running.
