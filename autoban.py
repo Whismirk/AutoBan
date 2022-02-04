@@ -79,4 +79,16 @@ async def on_member_join(member: Member):
     await check_member(member=member)
 
 
-bot.run('[your_bot_token_here]')
+@bot.event
+async def on_member_update(before: Member, after: Member):
+    """
+    Executes when a member updates their profiler
+
+    :param before: (Member) Object of said member before the profile changes
+    :param after: (Member) Object of said member after the profile changes
+    """
+
+    await check_member(member=after)
+
+
+bot.run(bot_token)
