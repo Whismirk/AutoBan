@@ -47,5 +47,5 @@ Improved by [@Rikj000](https://github.com/Rikj000) to counter the spam of bots p
     # === ↑ SETTINGS ↑ ============================================================
     ```
 - Finally, run `autoban.py` inside your terminal of choice.
-
-The bot will only work while the script is running.
+    *(The bot will only work while the script is running)*
+- **Optional:** A `Dockerfile` has been added to make running with [`docker`](https://www.docker.com/) possible 🙂
